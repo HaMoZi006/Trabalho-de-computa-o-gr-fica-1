@@ -32,7 +32,7 @@ void init() {
     glClearColor(1.0f, 1.0f, 1.0f, 1.0f); // Fundo branco
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluOrtho2D(-1, 1, -1, 1); // Define uma projeção ortogonal
+    gluOrtho2D(-1, 1, -1, 1); 
 }
 
 int main(int argc, char** argv) {
